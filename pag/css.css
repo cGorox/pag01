@@ -1,0 +1,15 @@
+:root {
+    --color1: rgb(127, 124, 115);
+    --color0: rgb(31, 30, 28);
+    --size: 8px;
+}
+
+body {
+    background: var(--color0);
+}
+
+h1 {
+    text-align:center;
+    font-size: calc(var(--size)*3);
+    color: var(--color1);
+}
